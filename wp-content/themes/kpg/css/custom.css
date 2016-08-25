@@ -1,0 +1,305 @@
+.grid-sizer,
+/*.grid-item { width: 20%; }*/
+/*.book-item.list { width:20%; margin-bottom: 0px; box-shadow: none; }*/
+.join-social {
+    margin: -8px 0 0;
+}
+input.btn.btn-yellow {
+    background: #FFCF01;
+    color: #616161;
+    font-size: 13px;
+    padding: 12px 30px;
+}
+p.form-submit {
+    float: right;
+    position: relative;
+}
+
+.status-upload form input {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -ms-border-radius: 4px 4px 0 0;
+    -o-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    color: #777777;
+    float: left;
+    font-size: 14px;
+    height: 43px;
+    letter-spacing: 0.3px;
+    padding: 20px;
+    width: 100%;
+    resize: vertical;
+    outline: none;
+    border: 1px solid #F2F2F2;
+}
+.search-top input[type=search] {
+    background: #fff;
+    border: none;
+    font-size: 12px;
+    width: 100%;
+}
+
+form.wpcf7-form {
+    margin-top: 0;
+    margin-bottom: 40px;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 30px;
+}
+
+form.wpcf7-form input,
+form.wpcf7-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    padding: 10px;
+}
+
+input.wpcf7-form-control.wpcf7-text,textarea.wpcf7-form-control.wpcf7-textarea {
+    width: 100%;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea{
+    margin-left: 13px;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    background: #FFCF01;
+    color: #616161;
+    font-size: 13px;
+    padding: 12px 30px;
+    float: right;
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+    margin-top: 80px;
+}
+
+.event-box{
+    overflow-y: scroll;
+}
+
+audio{ width: 100%; }
+header .navbar-default .navbar-nav>li>a{
+    border-top: 5px solid transparent;
+    text-transform: uppercase;
+}
+
+/*span.cover{
+    min-height: 220px;
+}
+
+span.cover.new-book{
+    width: initial;
+}*/
+
+#grid-container {
+    height: auto !important;
+}
+
+li.clearfix.berita-list img {
+    width: auto !important;
+    height: 100% !important;
+    display: inline-block;
+}
+
+.col-md-5 .book-item {
+    width: 100%;
+}
+.book-featured.grid-box .col-md-4 .image img {
+    width: auto !important;
+    height: 100% !important;
+    max-width: none !Important;
+}
+.book-featured.grid-box .col-md-4 .image {
+    height: 250px;
+    overflow: hidden;
+}
+.book-featured.grid-box .col-md-4 .berita-list {
+    min-height: 420px;
+}
+.book-featured.grid-box #grid-container .grid-item {
+    width: 16% !important;
+    position: static !Important;
+    float: left;
+    margin: 10px 2%;
+    height: auto !important;
+}
+
+.book-item span {
+    display: block;
+    font-size: 11px;
+    min-height: auto !important;
+}
+section#content {
+    margin-bottom: 30px;
+}
+#page-inside .berita-list p, #page-inside .author-list p {
+    margin: 0;
+    line-height: 22px;
+}
+
+.col-md-12.galeri-box {
+    margin-bottom: 15px;
+}
+
+.col-md-12.galeri-box + .clearfix {
+    margin: 0 -15px;
+}
+
+.book-featured.grid-box .col-md-4 .image {
+    height: 250px;
+    overflow: hidden;
+}
+
+.book-featured.grid-box .col-md-4 .image img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !Important;
+}
+@media(max-width:800px){
+.book-featured.grid-box #grid-container .grid-item{
+    width:28% !important;
+}
+
+}
+@media only screen and (max-width: 767px){
+.grid-box  .merchandise-item {
+    width: 29%;
+    margin: 10px 2%;
+    text-align:center;
+}
+}
+@media(max-width:600px){
+.book-featured.grid-box #grid-container .grid-item{
+    width:45% !important;
+}
+.grid-box  .merchandise-item {
+    margin: 10px 1%;
+}
+}
+.berita-list .image img {
+height: auto;
+}
+
+.book-featured.book-author-list.grid-box .book-item {
+   width: 17%;
+}
+
+.book-featured.book-author-list.grid-box .book-item .desc p {
+   text-align: center !important;
+}
+
+@media(max-width:1024px){
+   .book-featured.book-author-list.grid-box .book-item {
+   width: 22%;
+   margin: 10px 1.5%;
+}
+}
+
+@media(max-width:800px){
+   .book-featured.book-author-list.grid-box .book-item {
+   width: 30%;
+}
+}
+
+@media(max-width:600px){
+   .book-featured.book-author-list.grid-box .book-item {
+   width: 47%;
+}
+}
+
+@media(max-width:400px){
+   .book-featured.book-author-list.grid-box .book-item {
+   width: 47%;
+}
+}
+.book-featured.grid-box #grid-container .grid-item .book-item {
+width: 100%;
+}
+.quotes-box img{
+    opacity: inherit;
+}
+.cover-author{padding:0}
+
+section.map {
+    margin-bottom:0px;
+}
+@media (min-width:800px) and (max-width:1080px){
+   .book-featured.grid-box #grid-container .grid-item {
+   width: 20% !important;
+   position: static !Important;
+   float: left;
+   margin: 10px 2%;
+   height: auto !important;
+}
+.book-item span.cover img{
+   height:250px;
+}
+}
+
+#page-inside .book-item span img {
+  height: 300px;
+  border: 1px solid #eee;
+  width:auto;
+}
+
+.book-item span.cover {
+   text-align: center;
+}
+
+.book-featured.grid-box #grid-container .grid-item .book-item {
+   border: none;
+}
+
+.book-item span.cover img {
+   border: 1px solid #eee;
+}
+
+#page-inside .col-md-8 {
+   margin-top: 30px;
+}
+.book-author-list .book-item span.cover img {
+   height: auto;
+}
+
+.carousel-indicators li {
+margin: 0 7px;
+}
+
+.book-author-list .book-item span.cover img {
+   height: auto;
+}
+.book-item .overlay{z-index:8}
+.join-social.share-article > a.whatsapp-btn, .join-social.share-article > a.whatsapp-btn i:before {
+ display: none;
+ }
+ 
+#carousel-articles .carousel-inner .book-item{
+    width: 26%;
+    margin: 0px 2%;
+    border: none;
+}
+
+#page-inside .book-item.author-list span img {
+    height: 100%;
+    width: 100%;
+}
+
+.more-article .box-img {
+    position: relative;
+    text-align: center;
+}

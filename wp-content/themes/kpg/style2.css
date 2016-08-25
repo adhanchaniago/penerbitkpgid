@@ -1,0 +1,189 @@
+/*
+Theme Name: KPG
+Theme URI: 
+Author: Smooets
+Version: 1.0
+
+This theme built with Twitter Bootstrap v.3. It is basic theme with basic style for build new theme with Bootstrap.
+
+*/
+
+
+/*
+Required WordPress CSS
+*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.bypostauthor {
+}
+.gallery-caption {
+}
+.sticky {
+}
+.wp-caption {
+	border: 1px solid #ccc;
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 1.2% auto 0;
+	max-width: 98%;
+}
+.wp-caption-text {
+	text-align: center;
+}
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+
+.wd-arrow a:before {
+    content: "\e008";
+}
+
+.wd-pointer a:after {
+    content: "\e08a";
+}
+
+[rel="next"], [rel="prev"] {
+    font-family: "WDicon";
+    font-size: inherit;
+    font-style: normal;
+}
+
+.site-main.default {
+	min-height: 200px;
+}
+
+.red-btn{
+	margin-bottom: 5px !important;
+}
+
+
+.wpcf7-form-control {
+	width: 75%;
+	background: #f3f3f3;
+	color: #555;
+    border: 1px solid #ccc;
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+.wpcf7-form-control.wpcf7-textarea {
+	height: 100px;
+}
+
+.wpcf7-submit:hover, .wpcf7-submit:focus {
+	border-color: #9068be;
+    color: #9068be;
+    background: #fff;
+    box-shadow: none;
+}
+.wpcf7-submit {
+    background: #9068be;
+    color: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 0px 0px rgba(118,73,169,1);
+    font-family: 'cartonsix';
+    font-size: 18px;
+    letter-spacing: 1px;
+    /*display: inline-block;*/
+    /*padding: 6px 12px !important;*/
+    border-radius: 4px;
+    width: 13%;
+    height: 10%;
+}
+/*
+.bip-news {
+
+    padding-bottom: 130px !important;
+
+}*/
+
+.widget.widget_categories .widget-title{
+	display: none;
+}
+
+.cat-item .children{
+	display: none;
+}
+
+.cat-item a{
+	/*padding: 0 !important;*/
+	width: 100%;
+	padding-left: 15px;/*
+	padding-right: 15px;*/
+
+    font-size: 15px;
+}
+
+.wd {
+	font-family: "WDicon";
+	/*font-size: inherit;*/
+    /*font-style: normal;*/
+
+}
+.wd a:before {
+	content: "\e093";
+	font-size: 20px;
+	padding-right: 2px;
+}
+
+
+#sidebar-left {
+	width: 100%;
+	padding: 0;
+}
+
+.twitter-stream {
+	margin: 15px 0;
+    border: 1px solid #9068be;
+    padding: 10px;
+    padding-left: 20px;
+    background: transparent;
+}
+
+
+.morecontent span {
+    display: none;
+}
